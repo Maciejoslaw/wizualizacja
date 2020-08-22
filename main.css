@@ -1,0 +1,102 @@
+/*główna wizualizacja ciała*/
+body
+{
+    background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 700;
+    font-size-adjust: unset;
+}
+section
+{
+    margin-left: 1%;
+    margin-right: auto;
+    border: 1px solid blue;
+}
+/*wizualizacja nagłówków*/
+h1
+{
+    background-color: blue;
+    color: white;   
+}
+h4
+{
+    line-height: 25%;
+}
+/*ogólny widok prasy*/
+
+/*wizualizacja danych w prasie, 3 kolory
+czerwony- jest źle
+pomarańczowy - zaraz będzie źle
+zielony -jest ok*/
+table,tr,td,th
+{
+    text-align: center,justify;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table
+{
+    float:left;
+    margin-left: 1%;
+    width: auto;
+    height: auto;
+    font-size: small;
+    margin-bottom: 1%;
+}
+table.ok
+{
+    background-color: green;
+
+}
+table.zle
+{
+    background-color: red;
+    color: white;
+}
+table.srednio
+{
+    background-color: orangered;
+    color: white;
+}
+/* zegar wizualizacja*/
+#zegar
+{
+    font-family: 'Josefin Sans', sans-serif;
+    width: fit-content;
+    background-color: blue;
+    color: white;
+}
+button
+{
+    font-size: larger;
+    background-color: blue;
+    color: white;
+    margin-left: 5%;
+}
+/*wizualizacja formularza*/
+#conteiner_formularz
+{
+    width: 60%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.legenda ,th.legenda , td.legenda, tr.legenda
+{
+    border: none !important;
+    float: none;
+    font-size: small;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.legenda1
+{
+    margin-left: auto;
+    margin-right: auto;
+}
